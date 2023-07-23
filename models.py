@@ -9,7 +9,3 @@ class mysbi(Base):
     description = Column(String(255))
     priority = Column(Integer)
     complete = Column(Boolean, default=False)
-    priority = Column(Integer)
-    complete = Column(Boolean, default=False)
-    priority = Column(Integer)
-
