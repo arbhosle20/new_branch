@@ -14,9 +14,9 @@ Base = declarative_base()
 class A():
     def ash(self):
         print('you are greate ashish')
-    def sac(self):
-        print('this is sachin')
+    def amol(self):
+        print('this is amol')
 o=A()
 o.ash()
-o.sac()
+o.amol()
 
