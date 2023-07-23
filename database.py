@@ -10,3 +10,13 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False,bind=engine)
 
 
 Base = declarative_base()
+
+class A():
+    def ash(self):
+        print('you are greate ashish')
+    def sac(self):
+        print('this is sachin')
+o=A()
+o.ash()
+o.sac()
+
