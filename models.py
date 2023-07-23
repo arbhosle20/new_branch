@@ -11,3 +11,5 @@ class mysbi(Base):
     complete = Column(Boolean, default=False)
     priority = Column(Integer)
     complete = Column(Boolean, default=False)
+    priority = Column(Integer)
+
